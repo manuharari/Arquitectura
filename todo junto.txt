@@ -75,4 +75,3 @@ Metodología Bem.
 Aplicar la nomenclatura Bem en nuestro proyecto para dar nombre a las clases.
 
 En esta aula, aprendimos varios conceptos importantes y los aplicamos en el desarrollo de nuestro proyecto. Construyendo el código HTML de la cabecera (Header), agregamos los estilos en la cabecera (Header) utilizando nuestros selectores de clases.
-
