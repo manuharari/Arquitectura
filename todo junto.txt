@@ -1,0 +1,78 @@
+ARQUITECTURA CSS
+
+1. Layout y conceptos basicos:
+
+Proyectos del curso y conceptos basicos.
+
+Existen dos archivos (uno que ya vimos anteriormente) que son normalize y reset.CSS
+Con normalize lo que conseguimos es quitar algunos estilos predeterminados en los navegadores con ciertas etiquetas, para que cuando abramos la pagina, los quite.
+Reset coloca estilos para que sean patrones dentro del navegador con algunas propiedades.
+
+Coceptos basicos:
+
+La arquitectura CSS es una metodologia que se enfoca en la estructura de un proyecto, el objetivo es organizar codigos y carpetas para estandarizar el trabajo en equipo.
+Debe ser predecible para que añadir una regla no tenga repercuciones inesperadas
+Reutilizable ya que las reglas no son abstractas y asi se podran crear nuevos componentes de forma mas rapida
+Mantenible para pòder realizar cambios en el CSS sin necesidad de tener que rehacer el codigo existente
+Escalable para que, aunque el proyecto y el CSS aumenten de tamaño, siga siendo facil de mantener.
+
+Los tipos de metodologias que existen, y las mas populares son:
+
+OOCSS
+SMACSS
+BEM
+ITCSS
+ACSS (Atomic design)
+
+Cursos necesarios para saber mas:
+
+Como el enfoque del curso no es HTML y CSS, sino la arquitectura CSS, siga los cursos de HTML y CSS que tenemos aquí en Alura Latam:
+
+- HTML5 y CSS3 parte 1: Mi primera página web https://app.aluracursos.com/course/html5-css3-primera-pagina-web
+- HTML5 y CSS3 parte 2: Posicionamiento, listas y navegación https://app.aluracursos.com/course/html5-css3-posicionamiento-listas-navegacion
+- HTML5 y CSS3 parte 3: Trabajando con formularios y tablas https://app.aluracursos.com/course/html5-css3-formularios-tablas
+- HTML5 y CSS3 parte 4: Avanzando en CSS https://app.aluracursos.com/course/html5-css3-avanzando-css
+
+Construyendo y estliziando la cabecera.
+
+Por ahora solo hemos hecho poco de codigo y alinear el CSS, pero es importante recalcar que mientras mas especifico sea el selector que usaremos en el css, mas trabajo nos costara mantenerlo. Se recomienda usar tantas clases como sea posible para crear selectores, haciéndolos más fáciles de entender.
+
+Metodologia BEM.
+
+Lanzada por Yandex intentando resolver una necesidad de lanzar sitios web de manera más rápida y que tuvieron un soporte durante mucho tiempo. Esta metodología BEM, que significa bloque, elemento, modificador como sus siglas lo indican, es una convención de nomenclatura popular para clase en HTML y CSS.
+La idea detrás de esto es dividir la interfaz de usuario en bloque independientes. Esto hace que el desarrollo de estas interfaces sea fácil y rápido, incluso cuando estamos trabajando con interfaces de usuario muy complejas. También permite crear componentes de interfaz extensibles y reutilizables. El objetivo es dar significado al nombre de las clases, algo mas informativo y facil de entender.
+
+BEM = Bloque Elemento Modificador
+
+Bloque: Componente de pagina con funcionamiento independiente reutilizable, representados por el atributo class en HTML; el bloque debe ser considerado un padre.
+Elementos: No se puede usar por separado ya que esta compuesta de un bloque.
+Modificador: Definen apariencia, estado o comportamiento de un bloque
+
+Bloque:
+<div class = "card"> esta clase es un bloque
+</div>
+Elemento:
+<form class = "contacto">
+    <input class="contacto__input">   ESTE ES EL ELEMENTO
+</form>
+Modificador:
+<div>
+    <a class="card__link"> </a> ELEMENTO
+    <a class="card__link--resaltar"></a> aqui, RESALTAR ES EL MODIFICADOR
+</div>
+
+En sintesis, es una convención de nomenclatura popular para clases en HTML y CSS.
+
+Para saber más sobre la Metodologia Bem, puedes leer la documentación oficial, alli encontraras todo el contenido explicativo acerca de esta metodología: https://en.bem.info/methodology/
+
+Lo que aprendimos en esta aula:
+
+En esta aula recorrimos algunos conceptos importantes sobre qué es una arquitectura CSS, también conocimos la relación entre arquitectura y metodología, además de eso iniciamos en la construcción del proyecto de este curso realizando:
+
+Construcción de la cabecera (Header) de nuestra página Fruta & Fruto.
+Aplicamos buenas prácticas para la estilización.
+Metodología Bem.
+Aplicar la nomenclatura Bem en nuestro proyecto para dar nombre a las clases.
+
+En esta aula, aprendimos varios conceptos importantes y los aplicamos en el desarrollo de nuestro proyecto. Construyendo el código HTML de la cabecera (Header), agregamos los estilos en la cabecera (Header) utilizando nuestros selectores de clases.
+
