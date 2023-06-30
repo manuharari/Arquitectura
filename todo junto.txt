@@ -75,3 +75,34 @@ Metodología Bem.
 Aplicar la nomenclatura Bem en nuestro proyecto para dar nombre a las clases.
 
 En esta aula, aprendimos varios conceptos importantes y los aplicamos en el desarrollo de nuestro proyecto. Construyendo el código HTML de la cabecera (Header), agregamos los estilos en la cabecera (Header) utilizando nuestros selectores de clases.
+
+
+2. Estilizando seccion banner y sobre:
+
+Atomic Design.
+
+Metodologia para crear sistemas de diseño:
+
+Cinco niveles en esta metodologia:
+
+-Atomos - Componentes basicos, etiquetas HTML (LABEL, INPUT, BUTTON, ETC)
+-Moleculas - Grupos de atomos unidos; unidades mas pequeñas fundamentales de un compuesto . 
+-Organismos - Grupos d emoleculas para formar secciones y complejas de una interfaz
+-Template - Grupos de organismos que confroman para crear paginas
+-Paginas - Instancias de plantillas donde probamos la efectividad del diseño.
+
+Dentro de esta metodologia, es importnte crear un archivo css por cada seccion (menu-link, menu-lista, cabecera, etc...) para tener todo mas ordenado y facil de editar.
+
+
+Mas sobre Atomic Design: https://bradfrost.com/blog/post/atomic-web-design/
+
+Lo que aprendimos en esta aula:
+
+En esta aula, conocimos la metodología Atomic Design y sus orígenes, el objetivo de esta metodología, además de eso avanzamos en la construcción del proyecto, organizando el código de la cabecera basados en lo aprendido realizando:
+
+Agregamos un nuevo archivo CSS con el nombre de la sección cabecera y trasladamos a este archivo los estilos que construimos en el aula anterior para la cabecera.
+Agregamos una nueva carpeta llamada menú y en ella añadimos los nuevos archivos para el menú.
+Trasladamos a cada archivo los estilos correspondientes basados en nuestros selectores de clases.
+Construimos en el archivo index.html el código para la sección Banner y Sobre.
+Agregamos las carpeta y archivos CSS correspondientes para aplicar los estilos en estas nuevas dos secciones del proyecto.
+Trabajar de esta forma nos permite resolver algún problema del código, con mayor facilidad sin necesidad de leer código muy extenso.
