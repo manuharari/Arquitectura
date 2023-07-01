@@ -106,3 +106,77 @@ Trasladamos a cada archivo los estilos correspondientes basados en nuestros sele
 Construimos en el archivo index.html el código para la sección Banner y Sobre.
 Agregamos las carpeta y archivos CSS correspondientes para aplicar los estilos en estas nuevas dos secciones del proyecto.
 Trabajar de esta forma nos permite resolver algún problema del código, con mayor facilidad sin necesidad de leer código muy extenso.
+
+
+3. Estilizando seccion de recetas.
+
+Estructurando las recetas:
+
+En esta aula repetimos algunos conceptos que ya conociamos pero trabajando sobre la metodologia atomic.
+
+flex-wrap
+https://developer.mozilla.org/es/docs/Web/CSS/flex-wrap#:~:text=flex%2Dwrap-,Resumen,cual%20ser%C3%A1n%20apilados%20los%20elementos
+
+CSS Tricks:
+https://www.aluracursos.com/blog/flexbox-css-guia-completo-elementos-y-ejemplos
+
+Lo que aprendimos en esta aula:
+
+A lo largo de esta aula avanzamos aún más en la construcción del proyecto, , aplicando los estilos para la “Sección de Recetas”, durante el proceso aprendimos acerca de:
+
+Organización y estructura de archivos.css de la sección recetas. Agregamos los archivos y carpetas necesarios para aplicar en ellos los estilos para esta nueva sección de recetas, continuando así con la organización de nuestro código aplicando el Atomic Design como lo hicimos en las clases anteriores.
+Repasamos la propiedad flex-wrap de CSS.
+Aplicamos transiciones en los botones de la sección recetas, resaltando estos elementos y creando así una animación agradable y efectiva para mejorar la interactividad de la página.
+Crear y mantener archivos más pequeños.
+
+
+4. Estilzando seccion quienes somos:
+
+Hemos dado formato a la seccion en cuestion de textos y titulos, tambien, dimos formato a las imagenes de las personas. Eso li¡o hicimos dandole ordenes especificas como border radius y tamaño para delinearla de la siguiente manera:
+
+.persona__imagen{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+Aqui aprendemos mas propiedades abreviadas:
+https://developer.mozilla.org/es/docs/Web/CSS/Shorthand_properties
+
+Nuestras imagenes las agregamos en el CSS y no en el HTML, pero, por que hicimos eso en este caso? Para ubicarlas de mejor manera; cuando una imagen pasa informacion y contenido, es mejor que esten en el index.html, pero cuando son referenciales, es mas facil tenerlo en css. Por ello, la seccion de banner en el index la convertiremos en un div en donde va la imagen (poniendo siempre la clase para conectarla), y de ahi partimos a estilizar y colocar en el CSS:
+
+.banner__imagen{
+    background: url('/assets/img/banner.png');
+    width: 100%;
+    height:calc(100%vh - 72px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+Pero vemos que repetimos muchas veces la palabra 'background' y eso no es eficiente, para ello utilizaremos palabras abreviadas que nos facilitan el trabajo:
+
+.banner__imagen{
+    background: url('/assets/img/banner.png') no-repeat center / cover;
+    width: 100%;
+    height:calc(100%vh - 72px);
+}
+
+Queda mucho mas facil, rapido y accesible.
+
+Lo que aprendimos:
+
+En esta cuarta aula, avanzamos un poco más en la construcción de nuestra página Fruta & Fruto y en el camino aprendimos:
+
+Buenas prácticas para trabajar con imágenes.
+Que son imágenes ilustrativas.
+Cuando una imagen debe estar referenciada dentro de nuestro HTML y cuando debe ser agregada desde el archivo de estilos en el CSS.
+Buenas prácticas con la importación de imágenes.
+Propiedades abreviadas “Shorthand” en CSS.
+
+5. Estilizando Footer y Responsividad.
+
