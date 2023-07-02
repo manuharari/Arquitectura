@@ -180,3 +180,22 @@ Propiedades abreviadas “Shorthand” en CSS.
 
 5. Estilizando Footer y Responsividad.
 
+Si quieres leer un poco más acerca de diseños responsivos, puedes leer este texto explicativo de la documentación de Developer Mozilla.
+
+Extensiones útiles para realizar pruebas de diseños responsivos:
+
+Window Resizer: Cambia el tamaño de la ventana del navegador para emular varias resoluciones de pantalla.
+
+Viewport Resizer – Responsive Testing Tool: Herramienta de prueba de diseño responsivo para probar la visualización de cualquier sitio web, en cualquier dispositivo móvil.
+
+https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Responsive_Design
+https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=es-419Link
+https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=es-419
+
+En el recorrer de esta quinta aula del curso finalizamos la construcción de nuestra página y aprendimos:
+
+Sobre los Layouts responsive y su importancia.
+Hacer un sitio web responsivo desarrollado para adaptarse a distintos dispositivos móviles.
+Cómo configurar el sitio para adaptarse a diferentes tamaños de pantalla.
+Felicidades por haber culminado el curso de Arquitectura CSS, nos vemos en un próximo curso.
+
