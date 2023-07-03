@@ -199,3 +199,4 @@ Hacer un sitio web responsivo desarrollado para adaptarse a distintos dispositiv
 Cómo configurar el sitio para adaptarse a diferentes tamaños de pantalla.
 Felicidades por haber culminado el curso de Arquitectura CSS, nos vemos en un próximo curso.
 
+https://www.aluracursos.com/blog/creacion-de-componentes-css-con-el-estandar-bem
